@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Cheat Sheet </title>
+    <link rel="stylesheet" type="text/css" href="./Resources/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation for when the topics listed gets too long -->
+    <nav>
+       <ul>
+        <li><h2 class="pacifico-regular">Where To Fab?</h2></li>
+        <li><img id="headshot" src="./Resources/Images/Fab-removebg-preview.png" alt="Fabiana (the creator of this page headshot)"</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#HTML-table">HTML Table</a></li>
+        <li><a href="#other-elements">Other Elements</a></li>
+        <li><a href="#css-elements">CSS Elements</a></li>
+       </ul>
+    </nav>
+
+    <!-- Banner Section to Introduce Topics -->
+    <header>
+        <h1 class="chewy-regular">HTML & CSS Cheat Sheet</h1>
+        <p>The best reference sheet that i'll ever own.</p>
+    </header>
+
+    <!-- About this Website -->
+    <div>
+        <h2 class="pacifico-regular" id="about" >Why was this Created?</h2>
+        <p>Through my time learning code, I have realized I'll need to use resources to keep my skills sharp. Using a refrence sheet where I can refer to vital information quickly is the end goal here. 
+            And over time, I want to continually update this website and upload it to Github or Linkedin so it can help beginner coders like myself. My journey so far has been a blast, but being a beginner
+            it can be hard to remember everything. So, this is why I have created this. In addition to pushing myself for fun! 
+        </p>
+        <img src="./Resources/Images/Program Quote best.png" alt=" "I'm not a great programmer; I'm just a good programmer with great habits."-Kent Beck. "
+    </div>
+    <!-- HTML References -->
+        <h2 class="chewy-regular">HTML Elements</h2>
+      <table>
+        <caption id="HTML-table" class="pacifico-regular">
+            Table Elements
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Resource</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="highlight" scope="row">&lt;table&gt;</th>
+                <td>Table</td>
+                <td>This element represents tabular data- the base to create rows and cells</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;thead&gt;</th>
+                <td>Table Head</td>
+                <td>This element represents a set of table rows, but with indication that they are at the head (top) of a table with information about the table's column</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;tbody&gt;</th>
+                <td>Table Body</td>
+                <td>This element represents a set of table rows, indicating that they contain the body of (main) data</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;tr&gt;</th>
+                <td>Table Row</td>
+                <td>This element represents a defined set of rows in a table, that will contain data inside (usually th and/or td elements)</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;td&gt;</th>
+                <td>Table Data</td>
+                <td>This element represents defined data of a cell of a table (a child to tr elements)</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;tfoot&gt;</th>
+                <td>Table Foot</td>
+                <td>This element represents the summary of the columns (e.g. a sum of the given numbers in column)</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">&lt;colspan&gt;</th>
+                <td>Column Span</td>
+                <td>This Attribute indicates how many columns the data cell spans or extends</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td#colspan">See here</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">To be continued...</th>
+            </tr>
+        </tfoot>
+      </table>
+      <table>
+        <caption id="other-elements" class="pacifico-regular">
+         Other Elements
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Resource</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="highlight" scope="row">&lt;nav&gt;</th>
+                <td>Navigation</td>
+                <td>This element represents a section of a page to provide navigation links either within the current document or other documents</td>
+                <td><a href="https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/">See here</a></td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">To be continued...</th>
+            </tr>
+        </tfoot>
+      </table>
+
+      <!-- CSS References -->
+       <table>
+        <h2 class="chewy-regular" id="css-elements">CSS Elements</h2>
+        <caption class="pacifico-regular">
+            Quick Styling References
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Resource</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="highlight" scope="row">float</th>
+                <td>Float</td>
+                <td>This property places an element on the left or right side of it's container - remaining as part of a flow</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">margin</th>
+                <td>Margin</td>
+                <td>This property extends the border area to include empty area used to separate the element from it's neighbors (all four sides of an element)</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">padding</th>
+                <td>Padding</td>
+                <td>This property extends the context area (before margin, extends the content on all four sides of an element)</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">overflow</th>
+                <td>Overflow</td>
+                <td>This property sets the desired behavior when the content does not fit in the elements padding box (Visible, hidden, clip, scroll, auto) </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">display: inline-block</th>
+                <td>Inline Block</td>
+                <td>This property allows you to apply both width and height to an element (respecting all margin- most commonly used with list items horizontally)</td>
+                <td><a href="https://www.geeksforgeeks.org/css-inline-block/?ref=header_outind">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">display: inline</th>
+                <td>Inline</td>
+                <td>This property only respects left and right margins/paddings (cannot apply width or height to an element)</td>
+                <td><a href="https://www.geeksforgeeks.org/css-inline-block/?ref=header_outind">See here</a></td>
+            </tr>
+            <tr>
+                <th class="highlight" scope="row">position: sticky</th>
+                <td>Sticky</td>
+                <td>This property allows elements to stay on the screen when it can, it won't overlap</td>
+                <td><a href="https://css-tricks.com/sticky-smooth-active-nav/">See here</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">To be continued...</th>
+            </tr>
+        </tfoot>
+       </table>
+</body>
+</html>

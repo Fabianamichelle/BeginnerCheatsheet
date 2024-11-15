@@ -1,0 +1,98 @@
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #a2d2ff;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffafcc,
+                 -2px 2px 0 #ffffff, 2px 2px 0 #ffafcc ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+ ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 9px;
+    background-color: #cdb4db;
+    color: white;
+    font-size: 40px;
+}
+
+nav {
+    text-align: center;
+    background-color: #cdb4db;
+    color: white;
+}
+
+nav, ul {
+    position: sticky;
+    top: 0;
+}
+
+img {
+    height: 600px;
+}
+
+#headshot {
+    height: 70px;
+    width: 70px;
+}
+
+a:hover {
+    color: #ffc8dd;
+}
+
+
+body {
+    background-color: #cdb4db;
+    color: white;
+    text-align: center;
+}
+
+caption {
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border: 5px solid #ffafcc;
+    padding: 7px 7px;
+    margin-top: 20px;
+}
+
+
+th, td {
+    border: 3px solid #bde0fe;
+}
+
+th {
+    background-color: #a2d2ff;
+}
+
+.highlight {
+    background-color: #ffafcc;
+}
+
+p, caption {
+    font-size: 20px;
+}
